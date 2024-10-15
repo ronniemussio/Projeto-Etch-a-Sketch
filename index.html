@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Etch-a-Sketch!</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+        <div class="heading">
+            <span>Etch-A-Sketch!</span>
+        </div>
+
+        <div class="game-container">
+            <span id="draw-heading">
+                Passe o mouse sobre a tela e enlouqueça!
+            </span>
+
+            <div class="options">
+                <span id="option-heading">
+                    Options
+                </span>
+
+                <div class="label-option">
+                    <label for="color">Color: </label>
+                    <select id="color" name="color">
+                        <option value="black" selected>Black</option>
+                        <option value="red">Red</option>
+                        <option value="green">Green</option>
+                        <option value="blue">Blue</option>
+                        <option value="yellow">Yellow</option>
+                        <option value="purple">Purple</option>
+                        <option value="rainbow">Rainbow Mode</option>
+                    </select>
+                </div>
+
+                <div class="label-option">
+                    <label for="grid-size">No. of grids per side:</label>
+                    <input type="number" id="grid-size" max="200" placeholder="50">
+                    <button id="submit-grid-size" disabled>Change grid</button>
+                </div>
+
+                <div class="label-option">
+                    <input type="checkbox" id="shade">
+                    <label for="shade">Shade progressively?</label>
+                </div>
+
+                <button id="clear-grid">Clear</button>
+            </div>
+
+            <div class="grid-container grid-shadow-black"></div>
+
+            <script src="js/scripts.js"></script>
+        </div>
+    </body>
+</html>

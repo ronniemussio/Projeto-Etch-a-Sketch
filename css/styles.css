@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    background: rgb(199, 247, 247);
+}
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    padding: 1.5rem;
+    color: rgb(173, 44, 147);
+    background-color: rgb(20, 26, 86);
+}
+
+.game-container {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+#draw-heading {
+    font-size: 28px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px inset black;
+    padding: 10px;
+    gap: 30px;
+    padding-right: 30px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+}
+
+#option-heading {
+    display: inline-block;
+    margin-top: -25px;
+    background-color: rgb(255, 255, 255);
+    padding: 0.5rem;
+}
+
+.label-option {
+    display: flex;
+    gap: 10px;
+}
+
+#grid-size {
+    width: 60px;
+}
+
+.grid-container {
+    margin-top: 10px;
+    padding: 0;
+    border: 2px solid black;
+    display: flex;
+    flex-shrink: 0;
+    height: 600px;
+    width: 600px;
+    gap: 0;
+}
+
+.grid-shadow-black {
+    box-shadow: 0px 0px 20px 20px rgba(0, 0, 0, 0.3);
+}
+
+.grid-shadow-red {
+    box-shadow: 0px 0px 20px 20px rgba(255, 0, 0, 0.3);
+}
+
+.grid-shadow-blue {
+    box-shadow: 0px 0px 20px 20px rgba(0, 0, 255, 0.3);
+}
+
+.grid-shadow-green {
+    box-shadow: 0px 0px 20px 20px rgba(0, 255, 0, 0.3);
+}
+
+.grid-shadow-yellow {
+    box-shadow: 0px 0px 20px 20px rgba(255, 255, 0, 0.3);
+}
+
+.grid-shadow-purple {
+    box-shadow: 0px 0px 20px 20px rgba(128, 0, 128, 0.3);
+}
+
+.grid-shadow-rainbow {
+    box-shadow: 10px 0px 20px 20px rgba(128, 0, 128, 0.3), 0px 10px 20px 20px rgba(255, 0, 0, 0.3), -10px 0px 20px 20px rgba(0, 255, 0, 0.3), 0px -10px 20px 20px rgba(0, 0, 255, 0.3);
+}
+.col {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.grid {
+    display: flex;
+    flex: 1;
+    background-color: rgb(255, 255, 255);
+}
+
+.black {
+    background-color: black;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.green {
+    background-color: green;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.purple {
+    background-color: purple;
+}
